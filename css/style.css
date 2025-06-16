@@ -60,7 +60,27 @@ ol, li{
 }
 
 .service-text {
-    font-size: 15px;
-    color: #555;
+    font-size: 17px;
 }
 /* service part css start */
+
+/* service card v2 start */
+
+.services-section.v2{
+    background-color: #fff;
+}
+
+.services-section.v2 .service-card{
+    background-color: #dedacd;
+    border-radius: 0;
+}
+
+.services-section.v2 .service-card.odd{
+    background-color: #bcac94;
+}
+
+.services-section.v2 .service-card.odd .service-icon{
+    background-color: #dedacd;
+}
+
+/* service card v2 end */
